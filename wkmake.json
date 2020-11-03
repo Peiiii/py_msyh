@@ -1,0 +1,10 @@
+{
+  "author": "Peiiii",
+  "author_email": "1535376447@qq.com",
+  "pkg_name": "py-msyh",
+  "pkg_desc": "python utils to use font msyh.ttc in a minute.",
+  "url": "http://github.com/Peiiii/py_msyh",
+  "remote_url": "git@github.com:Peiiii/py_msyh",
+  "install_requires": [
+  ]
+}
