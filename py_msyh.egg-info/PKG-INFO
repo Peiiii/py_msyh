@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: py-msyh
-Version: 0.0.0.1
+Version: 0.0.0.2
 Summary: python utils to use font msyh.ttf in a minute.
 Home-page: http://github.com/Peiiii/py_msyh
 Author: Peiiii
@@ -14,7 +14,11 @@ Description: # py-msyh
         
         # usage
         ```python
-        import 
+        import pymsyh
+        # get font path of msyh.ttf
+        font_path=pymsyh.get_font_path()
+        # load font (using ImageFont.truetype from PIL)
+        font= pymsyh.load_font(size=24)
         ```
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
